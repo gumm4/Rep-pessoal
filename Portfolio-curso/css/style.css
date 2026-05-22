@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b84646;
+}
+
+
+/*------Header------*/
+
+header{
+    display:flex;
+    background-color: #524646;
+    height: 60px;
+    max-height:100px;
+    justify-content:center;
+    align-items: center;
+}
+
+
+header li a{
+    color:black;
+    text-decoration:none;
+    margin:10px;
+    
+}
+
+header ul {
+
+    list-style-type: none;
+    display:flex;
+
+}
+
+/*---------------*/
+
+hr{
+    justify-items: center;
+}
+
+/*---------------*/
+/*------Main------*/
+
+    main {
+        
+
+        justify-content: center;
+        height: 50px;   
+    }
+
+/*----------------*/
+
+.virgil {
+    
+    justify-items: center;
+    display: flex;
+    height: 20px;
+    align-content:center ;
+    align-items: center;
+}
+
+/*------Div Biografia------*/
+.biografia h1{
+    font-family:"Press Start 2P",system-ui;
+    font-weight: 400;
+    font-style:normal;
+    padding-left: 20px;
+    font-size:30px;
+}
+
+.biografia p{
+    padding-left:20px;
+    font-family:"Righteous", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    text-align: left;
+    font-size:18px;
+}
+
+.biografia{
+    display:flex;
+    padding:5px;
+    background-color: #4dac16;
+    border-radius:15px;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+/*-------------------------*/
