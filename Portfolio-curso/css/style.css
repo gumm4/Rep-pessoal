@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #b84646;
+    background-color: #dbd2d2;
     transition:0.3s;
 }
 
-body.dark_mode{
+body.dark_mode {
     background-color: black;
 }
 
@@ -17,18 +17,23 @@ body.dark_mode{
 
 header{
     display:flex;
-    background-color: #524646;
+    background-color: #068a64;
     height: 60px;
     max-height:100px;
     justify-content:center;
     align-items: center;
+    transition: all 0.3s;
 }
 
 
 header li a{
-    color:black;
+    display:inline-block;
+    color:#ffffff;
     text-decoration:none;
-    margin:10px;
+    font-size: 15px;
+    padding-bottom:2px;
+    border-bottom: 2px solid transparent;
+    padding:13px 15px 4px 15px;
     
 }
 
@@ -36,8 +41,22 @@ header ul {
 
     list-style-type: none;
     display:flex;
+    gap:10px;
+    align-items:center;
 
 }
+
+header li a:hover{
+    color:#000000;
+    border-bottom: 2px solid black;
+    padding:13px 15px 4px 15px;
+}
+
+header li{
+    background-color: #00272d;
+    border-radius:4px;
+}
+
 
 /*---------------*/
 
@@ -62,12 +81,14 @@ main{
     display: flex;
     justify-content: center;
     height: 75px;
-    margin:15px;
+    margin:20px;
+    
 }
 
 .virgil img{
 
     height:100px;
+    border-radius:10px;
 
 }
 
@@ -78,6 +99,7 @@ main{
     font-style:normal;
     padding-left: 20px;
     font-size:30px;
+    color:#00272d;
 }
 
 .biografia p{
@@ -87,6 +109,7 @@ main{
     font-style:normal;
     text-align: left;
     font-size:18px;
+    color:#00272d;
 }
 
 .biografia{
@@ -94,10 +117,43 @@ main{
     justify-content: center;
     padding:20px;
     margin:15px;
-    background-color: #4dac16;
+    background-color: #000000;
     border-radius:15px;
     width: 80%;
-   
+    border:solid 2px #00272d;
     flex-direction: column;
+    gap:5px;
 }
 /*-------------------------*/
+
+/*------------Tecnologias--------------*/
+
+.tecbrabas{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:20px;
+}
+
+.iconebrabas{
+    display:flex;
+    flex-direction: row;
+}
+
+.tecbrabas h1{
+    text-align: left;
+    margin-bottom:20px;
+}
+
+.tecbrabas img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*-------------------------------------*/
+
+/*---------------"A"-------------------*/
+
+
+/*--------------------------------------/

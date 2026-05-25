@@ -1,0 +1,20 @@
+{
+"tecnologias":[
+
+    "HTML",
+    "CSS",
+    "PYTHON",
+    "JS",
+    "SQLITE"
+],
+
+"projetos": {
+
+    "quadras": "Um sistema de reserva para uma quadra de areia, usando Python,Tkinter e CustomTkinter.",
+    "estacionamento":"Um sistema de gerenciamento de vagas, usando somente o Python e Tkinter"
+
+}
+
+
+
+}
