@@ -30,7 +30,7 @@ async function enviar() {
     }
 
     if (texto.includes("quadras")) {
-        resposta = dados.projetos.quadras;
+        resposta = dados.projetos.qgituadras;
     }
 
     if (texto.includes("parking")) {
