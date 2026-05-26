@@ -11,7 +11,7 @@ botao.addEventListener("click", () => {
 
 async function carregarDados() {
 
-    const resposta = await fetch("./json/dados.json");
+    const resposta = await fetch("docs/dados.json");
     return await resposta.json();
 
 }
