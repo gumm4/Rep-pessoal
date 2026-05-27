@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
           
 
 </head>
@@ -29,25 +31,29 @@
 
     <main>
 
-        <div class="virgil">
-            <img src="Vergil.jpeg"alt="Foto de perfil">
-        </div>
+
 
 
         <div class="biografia">
+
             <br>
-            <h1>Luiz Gustavo</h1>
-            <p>
-                Meu nome é Luiz Gustavo, e este é meu site portfolio, aqui você poderá ver com quais tecnologias 
-                eu ja tenho alguma experiência, meus projetos, e alguns dos meus gostos pessoais
-            </p>
+            <div class="textobrabo">
+                <h1>Luiz Gustavo</h1>
+                <p>
+                    Meu nome é Luiz Gustavo, e este é meu site portfolio, aqui você poderá ver com quais tecnologias 
+                    eu ja tenho alguma experiência, meus projetos, e alguns dos meus gostos pessoais
+                </p>
+            </div>
+            <div class="virgil">
+                <img src="Vergil.jpeg"alt="Foto de perfil">
+            </div>
         </div>
 
-        <button id="cortrocar">Modo Claro/Escuro</button>
+        
 
         <div class="tecbrabas">
 
-            <h1>Algumas das tecnologias que já trabalhei</h1>
+            <h1>ALGUMAS DAS TECNOLOGIAS QUE JA TRABALHEI</h1>
 
             <div class="iconesbrabas">
                 <a class="js">
@@ -68,11 +74,17 @@
         <div class="chatbrabo">
             <div id="mensagens"></div>
 
-            <input type="text" id="input">
-            <button onclick="enviar()">Enviar</button>
+            <input class="brabo" type="text" id="input" placeholder="Digite tecnologias ou projetos">
+            <button class="botaobrabo" onclick="enviar()">Enviar</button>
         </div>
         
     </main>
+
+    <footer>
+        <div class="rodape">
+            <button id="cortrocar">Modo Claro/Escuro</button>
+        </div>
+    </footer>
 
     <script src="./index.js"></script>
 </body>

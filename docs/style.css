@@ -17,7 +17,7 @@ body.dark_mode {
 
 header{
     display:flex;
-    background-color: #068a64;
+    background-color: #eb0a44;
     height: 60px;
     max-height:100px;
     justify-content:center;
@@ -47,13 +47,13 @@ header ul {
 }
 
 header li a:hover{
-    color:#000000;
-    border-bottom: 2px solid black;
+    color:#f2643d;
+    border-bottom: 2px solid #f2643d;
     padding:13px 15px 4px 15px;
 }
 
 header li{
-    background-color: #00272d;
+    background-color: #26251c;
     border-radius:4px;
 }
 
@@ -74,75 +74,116 @@ main{
 }
 
 
-/*----------------*/
+/*-------Virgil---------*/
 
 .virgil {
     
     display: flex;
     justify-content: center;
-    height: 75px;
-    margin:20px;
-    
+    align-items: center;
 }
 
 .virgil img{
 
-    height:100px;
+    width: 140px;
+    height:140px;
+
+    object-fit:cover;
+
     border-radius:10px;
 
 }
 
-/*------Div Biografia------*/
+/*-----------------------*/
+
+/*-----------Div Biografia----------*/
 .biografia h1{
     font-family:"Press Start 2P",system-ui;
     font-weight: 400;
     font-style:normal;
     padding-left: 20px;
     font-size:30px;
-    color:#00272d;
+    color:#f19b23;
 }
 
 .biografia p{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items: center;
+
     padding-left:20px;
+
     font-family:"Righteous", sans-serif;
     font-weight: 400;
     font-style:normal;
     text-align: left;
+
     font-size:18px;
-    color:#00272d;
+
+    color:#f2a73d;
 }
 
 .biografia{
+
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items:center;
+    height: 500px;
+
     padding:20px;
     margin:15px;
-    background-color: #000000;
-    border-radius:15px;
-    width: 80%;
+
+    background-color: #000000b0;
     border:solid 2px #00272d;
-    flex-direction: column;
+
+    border-radius:15px;
+
+    width: 80%;
+    max-height: 500px;
     gap:5px;
 }
-/*-------------------------*/
+/*-------------------------------------*/
 
 /*------------Tecnologias--------------*/
 
 .tecbrabas{
+
+
     display:flex;
     flex-direction: column;
     align-items:center;
+
     gap:20px;
+    width: 500px;
+
+    background-color: #000000e0;
+
+    padding:25px;
+
+    border-radius:7px;
+
 }
 
 .iconebrabas{
     display:flex;
     flex-direction: row;
+
 }
 
 .tecbrabas h1{
-    text-align: left;
+
+    text-align: center;
+
     margin-bottom:20px;
+
+    color:#eb0a44;
+
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .tecbrabas img{
@@ -153,7 +194,119 @@ main{
 
 /*-------------------------------------*/
 
-/*---------------"A"-------------------*/
+/*-----------------Chat Brabo------------*/
+
+.chatbrabo{
+
+    display:flex;
+
+    margin-top:25px;
+    margin-bottom: 25px;
+    max-width: 300px;
+
+    padding:15px;
+
+    flex-direction:column;
+
+    background-color:rgba(31, 30, 30, 0.856);
+
+    border:solid 2px #000000;
+    border-radius:5px;
+
+    transition:0.3s ease;
+
+}
+
+/*---------------------------------------*/
 
 
-/*--------------------------------------/
+/*---------------Texto-------------------*/
+
+
+.textobrabo{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+
+    width:70%;
+}
+
+
+/*-----------------Rodapé---------------------*/
+
+footer{
+
+    display:flex;
+    flex-direction: column;
+
+    height: 75px;
+
+    background-color: #a0e8b7;
+
+
+    justify-content: center;
+    align-items:center
+
+}
+
+
+/*--------------------------------------------*/
+
+
+/*------------------Mensagem-------------------*/
+
+.usuario{
+
+    background-color: #0c0d02;
+    color:#36bba6;
+    
+    margin:10px 0;
+    padding:5px;
+
+    border-radius:6px;
+}
+
+.bot{
+
+    background-color: #0c0d02;
+    color:#73185e;
+
+    margin:10px 0;
+    padding:5px;
+    
+    border-radius:6px;
+
+}
+/*---------------------------------------------*/
+/*----------------Botão e Input de Texto-----------*/
+
+.brabo{
+
+    color:#026e38;
+
+    background-color:rgba(0, 0, 0, 0.753);
+    
+    border-radius:5px;
+
+    border:solid 1px #026e38;
+
+    margin-bottom:5px;
+    padding:5px;
+
+
+}
+
+.botaobrabo{
+
+    border-radius:5px;
+    border:solid 1px #fdffd9;
+
+    background-color: black;
+
+    padding:5px;
+
+    color:#fdffd9;
+
+}
+
+/*-------------------------------------------------*/

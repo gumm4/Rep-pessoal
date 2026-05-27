@@ -30,7 +30,7 @@ async function enviar() {
     }
 
     if (texto.includes("quadras")) {
-        resposta = dados.projetos.qgituadras;
+        resposta = dados.projetos.quadras;
     }
 
     if (texto.includes("parking")) {
@@ -39,8 +39,8 @@ async function enviar() {
 
     document.getElementById("mensagens").innerHTML += `
 
-        <p><strong>Você:</strong> ${texto}</p>
-        <p><strong>Bot:</strong> ${resposta}</p>
+        <p class="usuario"><strong>Você:</strong> ${texto}</p>
+        <p class="bot"><strong>Bot:</strong> ${resposta}</p>
     
     `;
 
