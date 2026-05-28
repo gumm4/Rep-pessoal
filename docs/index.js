@@ -37,6 +37,10 @@ async function enviar() {
         resposta = dados.projetos.estacionamento;
     }
 
+    if (texto.includes("motivação")) {
+        resposta = dados.comecar.motivo;
+    }
+
     document.getElementById("mensagens").innerHTML += `
 
         <p class="usuario"><strong>Você:</strong> ${texto}</p>

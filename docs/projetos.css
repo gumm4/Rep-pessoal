@@ -1,0 +1,11 @@
+header li{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+header a{
+    text-decoration: none;
+}
