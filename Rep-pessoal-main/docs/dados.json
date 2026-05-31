@@ -1,0 +1,26 @@
+{
+"tecnologias":[
+
+    "HTML",
+    "CSS",
+    "PYTHON",
+    "JS",
+    "SQLITE"
+],
+
+"projetos": {
+
+    "quadras": "Um sistema de reserva para uma quadra de areia, usando Python,Tkinter e CustomTkinter.",
+    "estacionamento":"Um sistema de gerenciamento de vagas, usando somente o Python e Tkinter"
+
+},
+
+"comecar": {
+
+    "motivo": "Eu tive interesse em começar a aprender programação, por que acho muito interessante pensar e criar seja um site ou um sistema, seja na hora de fazer a parte visual ou na parte de lógica, é muito gratificante ter uma dificuldade, pensar numa solução, transforma-la em código e ela funcionar. É uma sensação indescritivel"
+
+}
+
+
+
+}
