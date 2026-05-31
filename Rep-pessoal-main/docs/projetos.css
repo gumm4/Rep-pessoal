@@ -1,11 +1,98 @@
-header li{
-    display:flex;
-    list-style-type: none;
-    justify-content: center;
-    gap:10px;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header a{
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    background-color: #000000e0;
+}
+
+header li {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 15px; /* Aumentei um pouquinho o espaço entre os links do menu */
+}
+
+header a {
     text-decoration: none;
+    color: #ffffff; /* Adicionei uma cor padrão para seus links não ficarem roxos/azuis */
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #D4B26F; /* Os links do menu mudam para dourado ao passar o mouse */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a; /* Adicionei um fundo escuro no body para dar contraste com os cards pretos */
+    color: #ffffff; /* Texto geral em branco */
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Importante: faz os cards irem para a linha de baixo se a tela for pequena (celular) */
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000e0;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 8px; /* Bordas levemente arredondadas deixam o design mais moderno */
+    text-align: center; /* Centraliza o texto do h2 e do p */
+}
+
+.projetos h2 {
+    margin: 15px 0 10px 0; /* Espaçamento ideal para o título */
+    font-size: 1.5rem;
+}
+
+.projetos p {
+    color: #cccccc; /* Um cinza claro para o texto do parágrafo ter melhor leitura */
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Alinhamento do Link do Git com o Ícone */
+.projetos .link_git {
+    display: flex;
+    align-items: center; /* Alinha o ícone perfeitamente no meio do texto */
+    gap: 8px; /* Espaço entre o ícone e a URL */
+    background-color: transparent; /* Removido o fundo preto redundante */
+    text-decoration: none;
+    color: #D4B26F; /* Cor dourada charmosa para os links */
+    font-size: 0.85rem;
+    word-break: break-all; /* Se a URL for muito grande, ela quebra linha de forma limpa */
+}
+
+/* Configuração do SVG */
+.icone_arquivo {
+    width: 28px;
+    height: 28px;
+    fill: #6B141D; /* O vermelho do Bastard München que você escolheu */
+    transition: fill 0.3s ease;
+}
+
+/* Efeito Hover: Quando passar o mouse no link, o ícone acende em dourado */
+.link_git:hover .icone_arquivo {
+    fill: #D4B26F;
 }
