@@ -90,6 +90,10 @@ main {
 
 }
 
+main h1{
+    text-align:center;
+}
+
 .projetos {
     display: flex;
     flex-direction: column;
@@ -105,6 +109,7 @@ main {
     border-radius: 8px; /* Bordas levemente arredondadas deixam o design mais moderno */
 
     text-align: center; /* Centraliza o texto do h2 e do p */
+
 }
 
 .projetos h2 {
@@ -116,6 +121,8 @@ main {
 .projetos p {
     color: #cccccc; /* Um cinza claro para o texto do parágrafo ter melhor leitura */
     font-size: 15px;
+
+    margin-bottom:15px;
 }
 
 /* Alinhamento do Link do Git com o Ícone */
@@ -151,3 +158,29 @@ main {
 .link_git:hover .icone_arquivo {
     color   : #ca0000;
 }
+
+
+.informacoes {
+    
+    background-color:#020101;
+
+    margin-top:15;
+    padding: 3px;
+
+    border-radius: 5px;
+    border: solid 2px #e00b0b;
+
+    color:antiquewhite;
+
+    transition: all 0.3s;
+
+}
+
+.tecnologias{
+
+    display:none;
+    opacity:0;
+
+}
+
+
